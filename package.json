@@ -1,7 +1,7 @@
 {
   "name": "alli",
   "version": "0.0.1",
-  "description": "Alli",
+  "description": "Component-based design system",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
