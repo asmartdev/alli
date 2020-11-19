@@ -1,7 +1,9 @@
 {
   "name": "alli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Component-based design system",
+  "repository": "https://github.com/asmartdev/alli",
+  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
@@ -21,14 +23,14 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate"
   },
-  "devDependencies": {
-    "@stencil/core": "^1.12.2",
-    "@stencil/postcss": "^1.0.1",
-    "@types/autoprefixer": "^9.7.2",
-    "autoprefixer": "^9.8.2"
-  },
-  "license": "MIT",
   "dependencies": {
-    "tailwindcss": "^1.4.6"
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
+  },
+  "devDependencies": {
+    "@stencil/core": "^2.3.0",
+    "@stencil/postcss": "^1.0.1",
+    "@types/autoprefixer": "^9.7.2"
   }
 }
